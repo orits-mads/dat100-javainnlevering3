@@ -70,9 +70,7 @@ public class Blogg {
 		Innlegg[] temp = new Innlegg[innleggtabell.length * 2];
 
 		// Kopierer alle elementene inn i den midlertidige tabellen
-		for (int i = 0; i < innleggtabell.length - 1; i++) {
-			temp[i] = innleggtabell[i];
-		}
+		System.arraycopy(innleggtabell, 0, temp, 0, nesteledig);
 
 		innleggtabell = temp;
 
