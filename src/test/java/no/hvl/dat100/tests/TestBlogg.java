@@ -1,10 +1,13 @@
 package no.hvl.dat100.tests;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
 
-import no.hvl.dat100.oppgave2.*;
-import no.hvl.dat100.oppgave3.*;
+import no.hvl.dat100.oppgave2.Bilde;
+import no.hvl.dat100.oppgave2.Tekst;
+import no.hvl.dat100.oppgave3.Blogg;
 
 public class TestBlogg {
 
